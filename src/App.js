@@ -1,24 +1,105 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import FoaasCard from "react-foaas-card";
+import "./App.css";
+
+const fucks = [
+  "asshole",
+  "awesome",
+  "bag",
+  "because",
+  "bucket",
+  "bye",
+  "cool",
+  "cup",
+  "diabetes",
+  "even",
+  "everyone",
+  "everything",
+  "family",
+  "fascinating",
+  "flying",
+  "ftfy",
+  "fyyff",
+  "give",
+  "horse",
+  "immensity",
+  "jinglebells",
+  "idea",
+  "life",
+  "logs",
+  "looking",
+  "maybe",
+  "me",
+  "mornin",
+  "no",
+  "pink",
+  "programmer",
+  "question",
+  "ratsarse",
+  "retard",
+  "ridiculous",
+  "rtfm",
+  "sake",
+  "shit",
+  "single",
+  "thanks",
+  "that",
+  "this",
+  "too",
+  "tucker",
+  "what",
+  "zayn",
+  "zero",
+];
+
+const fuckers = [
+  "Mahatma Gandhi",
+  "Joseph Stalin",
+  "Adolf Hitler",
+  "Queen Victoria",
+  "Queen Elizabeth",
+  "Vladmir Putin",
+  "Donald Trump",
+  "Narendra Modi",
+  "Benito Mussolini",
+  "Hideki Tojo",
+  "Grigori Rasputin",
+  "Vladmir Lenin",
+  "Ayn Rand",
+  "Tanshi Nayak",
+  "Akshay Kumar",
+  "Naruto Uzumaki",
+  "Goku",
+  "Joker",
+  "Batman",
+  "Albert Einstein",
+  "Issac Newton",
+  "Some asshole",
+];
 
 function App() {
+  const [type, setType] = useState("programmer");
+  const [from, setFrom] = useState("Some asshole");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <button
+        className="btn"
+        type="button"
+        onClick={() => {
+          setType(fucks[Math.floor(Math.random() * fucks.length)]);
+          setFrom(fuckers[Math.floor(Math.random() * fuckers.length)]);
+        }}
+      >
+        <span>Fuck</span>
+      </button>
+      <FoaasCard
+        className="card"
+        type={type}
+        from={from}
+        darkMode
+        middleFinger={false}
+      />
+      ;
     </div>
   );
 }
