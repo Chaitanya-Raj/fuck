@@ -115,7 +115,6 @@ function App() {
         darkMode
         middleFinger={false}
       />
-      ;
     </div>
   );
 }
