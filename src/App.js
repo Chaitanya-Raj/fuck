@@ -68,6 +68,7 @@ const fuckers = [
   "Ravish Kumar",
   "Rasputin",
   "Vladmir Lenin",
+  "Monjulika Dutta",
   "Tanshi Nayak",
   "Prateek Balchandani",
   "Simran Saini",
