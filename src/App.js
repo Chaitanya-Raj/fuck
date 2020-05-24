@@ -94,6 +94,7 @@ const fuckers = [
   "Payal",
   "Shreya Singh",
   "Diksha",
+  "Muhammad Danish",
   "Jhanvi Mundra",
   "Salman Khan",
   "Naruto Uzumaki",
@@ -108,23 +109,25 @@ function App() {
   const [from, setFrom] = useState("Chaitanya Raj");
   return (
     <div className="container">
-      <button
-        className="btn"
-        type="button"
-        onClick={() => {
-          setType(fucks[Math.floor(Math.random() * fucks.length)]);
-          setFrom(fuckers[Math.floor(Math.random() * fuckers.length)]);
-        }}
-      >
-        <span>Fuck</span>
-      </button>
-      <FoaasCard
-        className="card"
-        type={type}
-        from={from}
-        darkMode
-        middleFinger={false}
-      />
+      <div className="widget">
+        <button
+          className="btn"
+          type="button"
+          onClick={() => {
+            setType(fucks[Math.floor(Math.random() * fucks.length)]);
+            setFrom(fuckers[Math.floor(Math.random() * fuckers.length)]);
+          }}
+        >
+          <span>Fuck</span>
+        </button>
+        <FoaasCard
+          className="card"
+          type={type}
+          from={from}
+          darkMode
+          middleFinger={false}
+        />
+      </div>
     </div>
   );
 }
