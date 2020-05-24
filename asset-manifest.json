@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/fuck/static/css/main.fafed742.chunk.css",
-    "main.js": "/fuck/static/js/main.223870b0.chunk.js",
-    "main.js.map": "/fuck/static/js/main.223870b0.chunk.js.map",
+    "main.css": "/fuck/static/css/main.c0bcb5bc.chunk.css",
+    "main.js": "/fuck/static/js/main.03d3c0f9.chunk.js",
+    "main.js.map": "/fuck/static/js/main.03d3c0f9.chunk.js.map",
     "runtime-main.js": "/fuck/static/js/runtime-main.571e0956.js",
     "runtime-main.js.map": "/fuck/static/js/runtime-main.571e0956.js.map",
     "static/js/2.e0a78b7d.chunk.js": "/fuck/static/js/2.e0a78b7d.chunk.js",
     "static/js/2.e0a78b7d.chunk.js.map": "/fuck/static/js/2.e0a78b7d.chunk.js.map",
     "index.html": "/fuck/index.html",
-    "precache-manifest.cd69deb1f82e1433d9576d2c7f5ada7b.js": "/fuck/precache-manifest.cd69deb1f82e1433d9576d2c7f5ada7b.js",
+    "precache-manifest.3a32c972a2e65a7b630459f1643249ba.js": "/fuck/precache-manifest.3a32c972a2e65a7b630459f1643249ba.js",
     "service-worker.js": "/fuck/service-worker.js",
-    "static/css/main.fafed742.chunk.css.map": "/fuck/static/css/main.fafed742.chunk.css.map",
+    "static/css/main.c0bcb5bc.chunk.css.map": "/fuck/static/css/main.c0bcb5bc.chunk.css.map",
     "static/js/2.e0a78b7d.chunk.js.LICENSE.txt": "/fuck/static/js/2.e0a78b7d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/fuck/static/media/bg-landscape.2f29db01.jpg"
+    "static/media/App.css": "/fuck/static/media/bg-portrait.8f2001b4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.571e0956.js",
     "static/js/2.e0a78b7d.chunk.js",
-    "static/css/main.fafed742.chunk.css",
-    "static/js/main.223870b0.chunk.js"
+    "static/css/main.c0bcb5bc.chunk.css",
+    "static/js/main.03d3c0f9.chunk.js"
   ]
 }
